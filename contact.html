@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <div class="nav">
+	  <a href="index.html">Home</a>
+	  <a href="families.html">PNW Tree Families</a>
+	  <a href="tree.html">Tree of the Week</a>
+	  <a class="active" href="contact.html">Contact Us</a>
+	</div>
+	<form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="get" id="form1">
+	  <fieldset>
+		<legend>Contact Us:</legend>
+		<fieldset>
+		  <label>Your name:
+		    <input type="text" name="First Name" size="30" maxlength="100">
+		  </label>
+	    </fieldset>
+	    <fieldset>
+		  <label>Your email:
+		    <input type="text" name="E-mail" size="30" maxlength="100">
+		  </label>
+	    </fieldset>
+		<fieldset>
+		  <label>Your message:
+		    <br>
+		    <textarea name="message" rows="6" size="60" maxlength="3000" required></textarea>
+		</fieldset>
+	    <fieldset>
+		    <label>
+		      <input type="checkbox" name="subscribe" value="yes">I would like to subscribe to the newsletter</label>
+		  <input type="submit" value="Submit" />
+	    </fieldset>
+      </fieldset>
+	</form>
+    <script src="script.js"></script>
+  </body>
+</html>
